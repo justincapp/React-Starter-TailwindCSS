@@ -3,5 +3,5 @@ tw - react starter
 
 Installation :
 
-npm install
-npm start
+$npm install
+$npm start
