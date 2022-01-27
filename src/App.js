@@ -5,6 +5,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Error from "./pages/Error";
 
 export default function App() {
  
@@ -21,6 +22,11 @@ export default function App() {
               <Home />
             </Route>
 
+
+            
+            <Route>
+              <Error />
+            </Route>
 
           </Switch>
         </Router>
